@@ -1,0 +1,75 @@
+.bodyone  {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.containerone {
+    display: flex;
+    height: 100vh;
+}
+
+.leftbar {
+    width: 200px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.leftbar-button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.leftbar-button:hover {
+    background-color: #555;
+}
+
+.blankspacer {
+    flex-grow: 1;
+}
+
+.outlog-button {
+    margin-bottom: 10%;
+    background-color: #d9534f;
+}
+
+.outlog-button:hover {
+    background-color: #c9302c;
+}
+
+.contentone {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.dashboardone {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.boxcard {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.titlecard {
+    margin: 0;
+    font-size: 18px;
+}
